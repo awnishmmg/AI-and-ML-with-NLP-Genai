@@ -1,0 +1,6 @@
+# Ignore all model-related files anywhere under the repo
+*.kv
+*.npy
+*.model
+myenv
+Notes/* 

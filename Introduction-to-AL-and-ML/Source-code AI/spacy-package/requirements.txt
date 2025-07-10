@@ -1,0 +1,11 @@
+numpy
+nltk
+pandas 
+spacy
+jupyter
+notebook
+indic-nlp-library
+streamlit
+scikit-learn
+gensim
+matplotlib
