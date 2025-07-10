@@ -1,0 +1,4626 @@
+	Awnish Kr Sharma
+	Btech CSIT 
+	Development 6+ Year Experience 
+	Training Domain : 12 Year.
+
+	AI using Python (Generative AI)
+	Python 5 Days.
+		1. Basic Fundamentals
+		2. Decision controls and loops 	
+		3. file handling 
+		4. OOPS.
+		5. Exceptional Handling.
+		6. Modules (numpy,pandas,sckit learn,seaborn,keras and Matplot lib.,Tensorflow)
+
+	Basic concept of ML, and AI, 
+	Decision Trees
+	Deep Learning -> NLP.
+	10+ Projects.
+
+	Types of Project:-
+	1. Rag based Application 
+	2. Transformer Based Application 
+	3. Text Summerisation tools
+	4. Search Engine.(LLM based)
+	5. GRU Based Application.
+
+	1. Intituion Concepts.
+	1. theoratical Intituion, Mathematical Intituion, Practical Intituion
+	2. Rag Scoring, Transformers, BERT Analysis, Vector Analysis. 
+	Develop and design Own LLM.
+		GRU Based, Bi-directional, Attention Based.
+		
+	Open source tools kit :-
+	Lanchain 
+	1. Langchain core 
+	2. Lanchain Community 
+	3. Lanchain Toolkit.
+
+	GROK AI Infrastructure (Free and Paid)
+	Google Collab for fine tuning.
+	How we can Build Application using AWS.
+	AWS Bedrock : we open source, Model Ready to use 
+	1. claud Ai.
+	2. Pepexiplity 
+	3. meta ollama
+	4. deepseek.ai  
+	5. mitral.ai
+	6. Nvidia Nim 
+	..
+	...
+	...
+
+	Build your own Model -> Deploy -> AWS Sage-maker.
+	Open Source Models:-
+	1. Open AI: gpt-4
+	2. olla2 and ollam3 codelamma (coding AI Agents)
+	3. google : gamma 2 and gamma 3
+	4. crew AI.
+	5. Anthropy : mistra.ai 
+
+	Chatbots : 
+	1. text Powered
+	2. Database Powered.
+	3. Search Power Chatbot History.
+
+	Console Based:-
+	Streamlit and Fask we use this also.
+
+	Basic Commands of CMD:-
+	1. cmd : command Prompt
+	2. cmd:/> 
+	 
+	 mode 
+	 1. normal mode :  -> double click -> 
+	 Path  C:/users/<user_name or pc_name>
+	 2. Admin Mode -> Run as Administrator -> 
+	 Path c:/windows/system32
+	   Super Admin Permission : All Permission access in case you will see message like access denied.
+	   
+	   26-05-2025:-
+	   =============
+	   
+	   title: used to give title to the cmd.
+	   cls : clear screen
+	   echo : it same as printf in c languge
+	   set : used to set the value of the variable.
+	   %var% : print the value of the variable.
+	   set /p var : take user input.
+	   set /a expression :  solve the expression.
+	   ver : display version
+	   
+	   using cmd to file handling:-
+	   ===========================
+	   How to write the data in file:-
+	   echo Some Message > <filename.txt>
+	   Mode : w mode -> if files does not exist, it will create it and and write the message.
+	   in w mode : the older data is over write.
+	   How to read the file :-
+	   ========================
+	   type filename.txt
+	   How to the write data in append mode :-
+	   =======================================
+	   echo some message >> filename.txt 
+	   
+	   using cmd to perform folder operations:-
+	   ==========================================
+	   How to make folder (directory) 
+	   mkdir : make folder 
+	   syntax : mkdir foldername
+	   
+	   How to delete folder :-
+	   rmdir foldername : 
+		
+	   How to delete files :-
+	   del filename 
+	   
+	   How to delete all files :-
+	   del *.*
+	   
+	   How to go inside a folder:-
+	   ============================
+	   cd <foldername or folderpath>
+	   cd shashwat
+	   
+	   How to come outside of the folder:-
+	   =====================================
+	   . (current directory)
+	   .. parent directory
+	   
+	   How to change drive :-
+	   =======================
+	   drivename: Hit Enter 
+	   
+	   How to go to the root:-
+	   ==========================
+	   cd /
+	   
+	   How to create any file using notepad:-
+	   =====================================
+	   start notepad <filename.txt>
+	   eg:-
+	   start notepad p1.java
+	   start notepad p1.py 
+	   start notepad p1.c 
+	   start notepad p1.cpp
+	   
+	How to run the file :-
+	======================
+	   py p1.py 
+	   java p1.java
+	   gcc p1.c
+	   
+	How to see the list of files and folder :-
+	============================================
+	  dir  : to see the list of files and folder
+	  
+	  where : used to find where files is installed.
+	  where python 
+	  
+	  Comments :- when used they stop execution of the line.
+				or when used it will ignore that line.
+				
+		types of comment:-
+		single line : #
+		multi line comment : # '''
+		
+		if ''' or """ are comment then what they called :
+		There called as Docstring.
+		What is docstring : This string is responsible for documentation(description) of the class or method.
+		 >>> : pytho repl (read Evaluate print loop)
+		 
+		 Let us use Python REPL:-
+		 ============================
+		 
+		 Using help command:-
+		 help() : you can ask any help 
+		 
+		 help('os') : This is Operating related command.
+		 .....
+		 ....
+		 
+		 
+		 28/05/2025:-
+		 ============= 
+		 similarly like help is used to show the description of the module, and function and class.
+		 similary we can use __doc__ (magic varaible) for printing the doc string.
+		 
+		 I/o statements in python:-
+		 ==========================
+		 I: input operatio : you will provide some input the python. and according that input 
+		 it will perform some operation, and return the response.
+		 O: Output Operation : even though we donot provide any input, then also 
+		 python must display minimum one output.
+		 
+		 Note : if there are n of inputs then possible combination of output 
+		 are 2^n
+		 if n=0, 2^0 -> 1 
+		 
+		 How to print()
+		 print() : we use print function.
+		 
+		Escape Character Sequence:-
+	==================================	
+	In  our Keyboard, we have 104 character keys.and every is associated with,  some 
+	character code (Ascii) code.
+	we have 0 to 255 character sequence.
+	and almost every sequence can be printed in the console.
+	But there are some character which donot print but, they show there effect. 
+	echoing character sequence (/) output buffering character sequence.
+	when you press a character and you same output of the character then it called 
+	as echoing or output buffering character sequence.
+	But there some character which create the effect but donot echo.
+	Those character sequence which donot echo, but show there effect is called 
+	as non-echoing character sequence non-buffering character sequence.
+
+	How this echoing works:-
+	========================
+	character -> A -> Ascii  -> return -> int -> 65 -> Binary(D->B)-> hide/show(echo(0,1))
+	rgb(255,255,255)
+
+	Enter -> Ascii -> 10 -> new line \n
+	Space -> Ascii -> 32 -> white space  
+	tab -> Ascii -> Indentation \t
+	in order to display non echo-able character we use, escape character sequence
+	vertical feed \f 
+	vertical tab \v 
+	backspace \b 
+
+	why escape(skip) character sequence is called as escape:-
+	====================================================
+	print('awnish') scanning and printing L->R
+	awnish
+	colour
+	color
+	How to skip any character:
+	\ it is called as escape operator : it represents special meaning.
+	formula:-
+	\ + sequence(echoing character) => Error 
+	\ + non-echoing character => Escape character Sequence.
+	Error + \ => Solution
+
+	''' inside '' not possible 
+	"" inside "" not possible 
+	""" inside """ not possible 
+	''' inside ''' not possible 
+	Rest all cases possible
+
+	using format string 
+	print(r'') : rawstring as it is 
+	name = 'Awnish'
+	print(f' my name is {name}')
+
+	input() : it is used take user input 
+	1. return output of input is str 
+
+	Input by default display Anything:-
+	1. print() then  input 
+	2. input('Enter the name:') --> Enter the name:
+
+	import math
+	math.sqrt()
+	math.floor(2.2) 2
+	math.ceil(2.2) 3
+	math.factorial(50) :120
+	math.abs(-5) : 5
+
+	math.floor(2.2) == math.ceil(2.2) : false 
+	math.floor(2) == math.ceil(2) : true
+	math.pow(2,5) 2^5 => 32
+	2x2x2x2x2
+	2**5 => 32 exponent Operator.
+
+	Date : 29/May/2025:-
+	======================
+	type conversion : type conversion is concept by which change the 
+	type of one value to another value.
+
+	int -> str 
+	str -> int -> value is numerical or not 
+
+	'10' -> 10 
+	'awnish' -> Error
+	Note : conversion is possible but the conversion should be valid.
+
+	conversion Type :
+	1. implicit conversion : changing the type automatic.
+		Conversion will be done by python itself.
+		dynamically change the type.
+	2. explicit conversion : user will be responsible for changing the type.
+		user will convert it
+		user will be programmer.
+		
+		
+	type of operation possible:-
+	================================
+	+ : possible
+		int + int : valid : mathmatical calculation
+		float + float : valid : mathmatical calculation
+		str + str : valid  : concatenation.
+		
+	- : Possible Operation :
+		 int - int :valid : int 
+		 float - float : valid: float 
+		 str - str : invalid 
+		 
+	* : Possible Operation:-
+		 str * str : invalid 
+		 int * int : valid 
+		 float * float : valid 
+		 This is special case in Python:-
+		 int * str  : valid : Result : repeation.
+		 
+		 3 * hello -> hellohellohello
+		 hello*3 -> hellohellohello
+		 
+	Note :- Please type of Match the Type.
+
+	for dynamic type conversion we use eval():-
+	==========================================
+	eval() : eval means evaluating the expression , in form of string.
+	eval() : also used for the dynamic type conversion.
+
+	consider a Problem
+	f(x) = x*x+2 where x=2 
+	f(2) = 2*2+2 => 6
+	eval() can help to get the value variable.
+
+	Working with mathematical Operators & and math Module and random:-
+	========================================================================
+	Basic Mathematical Operations:-
+	+, Addition 
+	-, minus 
+	* : multiply
+	/ : float division 
+	// : int division 
+	% : remainder : modulus operator 
+	** : exponent or power 
+	**(0.5) : square root 
+	_/25 => 25^(1/2) => 25^(0.5) => 5.0 
+
+	Some of the Operator are not available in the Python directly
+	hence we use math module for some specific operation.
+	1. import math as m 
+
+	math.pi  //3.1467890....
+	m.pi 
+
+	31-May-2025:-
+	==============
+	we have learned how to use module, random and string:-
+	How many modules 
+	1. os
+	2. math
+	3. string 
+	4. random 
+
+
+	Agenda:-
+	1. concepts of variable
+	2. datatypes 
+	3. collection data Types : Python in-built collection framework
+		or 
+		Python data structure (Physical Datastructure)
+		For example : tuple,list,range,set,dict,frozenset
+	4. 	special operator : Buffer Operator.
+	5. Naming convention 
+	   1. general naming conversion and case types 
+	   2. Name Mangling
+	6. operators possible number operators:-
+
+	#concepts of variable:-
+	variable : are the container to the memory 
+	block thats holds some value.
+
+	when ever we are talking variable
+	we are taking about talking memory 
+	temporary memory (volatile memory): RAM 
+
+	1.  Normal Varibale -> stack memory 
+	2.  pointers and Objects can remain in 
+		heap memory.
+		
+	Identity the memory block 
+	of the given variables ?
+
+	arr = [10,20]  # variable
+	name = 'Ravi'  # varaible
+	class Test:    # varaible
+		a = 10     # class level varaible
+		b = 20     # class level varaible
+		
+		
+	test = new Test() #test => #object variable
+	Total Varible:-
+
+	a)3
+	b)4
+	c)5
+	d)6 : correct.
+
+	2. which variable will heap and stack ?
+
+	Our Memory it is a Hardware.
+	and These Hardware have some Address.
+	Hexadecimal Value.
+
+
+
+	M1 000000000062FE4C => 30 
+	M2  000000000062FE48 => 40 
+		
+	000000000062FE4C + 000000000062FE48 = 
+
+	ALU => Arthematic Logic Unit 
+		   Hardware (Full Addder, Half Adder)
+			(Multiplexer)	   
+			
+		  30 + 40 => 70 => 000000000062FE50
+
+
+	x -> 000000000062FE4C => 30 
+	y -> 000000000062FE48 => 40 
+
+	In python every value is reserved with memory
+
+	in python variable are pointer to some 
+	memory location of a actual value
+	A 102 HAL TOWNSHIP KORWA AMETHI,UP
+	White House Compound Gaya,Bihar,823001
+	latitude:38492834928198941 => Address
+	longitude:934489384 => Address
+	Address : simple way of representing 
+	the longitude and latitude.
+
+	properties :-
+	============
+	1. value can be changed
+	2. value can intialised n of times.
+	3. varaible : change 
+
+	constant : Not allowed to change the value.
+
+	Indentifier_name  = some_value 
+	1. number,int,float,boolean,array,tuple,dictionary,
+	set,string,character.
+
+	Rules of naming a variable:-
+	1. it should always start from alpha(a-z A-Z) or _ 
+	2. you cannot start the variable with number.
+	3. varibale cannot be reserved keyword.
+
+	if : keyword 
+	you cannot make if variable 
+	4. there cannot be space between any word
+		full name = 'Ravi kumar' #invalid 
+		
+		if you want to add space use _ represent space
+		full_name = 'Ravi Kumar'
+		
+	5. No special symbol is allowed in variable name.
+
+	@name : #invalid 
+	name@ :#invalid 
+	name_ : is valid
+	 
+	6. only underscore symbol is allowed anywhere.
+	  _name : valid 
+	  name_ : valid 
+	  _name_ : valid 
+	  full_name : valid 
+	  
+	7. we can use numbers after the first character
+	   (a-z A-Z and _)
+	   
+	   
+	_123 : valid 
+	_total : valid 
+	_name123 : valid 
+	name123 : valid 
+	123_name : #invalid 
+	1name : #invalid.
+
+	The These Rules are valid for All Indentifiers
+	1. varaible
+	2. class Name 
+	3. function name 
+	4. constants 
+	5. methods 
+	6. modules 
+	...
+	...
+	...
+	02/june/2025
+	Case Type in Python:-
+	========================
+	my name is khan
+	1. snake case  (space is sperated by _)
+		1. upper snake case : MY_NAME_IS_KHAN
+		2. lower snake case : my_name_is_khan
+		1. php,python strictly follows snake case.
+		
+	2. kebab case   (instead _ we use - )
+		1. upper kebab case : MY-NAME-IS-KHAN
+		2. lower kebab case  :my-name-is-khan
+		Eg: css (cascasding style sheet)
+		background-color : "red"	
+			
+	3. camel case (combination of lowercase and upper case)
+		in camel case only first character of first will be lowercase and 
+		other words first character will be in upper case
+		Eg:-
+		myNameIsKhan
+		1. c++,java,Javascript,Php,python (in case object oriented), C#, ObjectiveC
+		
+	4  pascal case (combination of lowercase and upper case)
+		pascal is same like camelcase the only difference, 
+		lower first character of the first world in camel case becomes uppercase.
+		MyNameIsKhan
+		Eg: c++,java,Javascript,Php,python (in case object oriented), C#, ObjectiveC
+
+
+	# case-senstivity of the python:-
+	python is case senstive langauge 
+	there is different in small a and A 
+
+	for example :-
+	html -> h1 tag lower case or upper case H1 there is not difference 
+			no lena dena with the ascii.
+	python programming ascii code small a and capital A both are different.
+
+	what is concept of Manglic and Non Manglic ?
+	As Per Kundli Concept, 
+
+	1. Manglic -> Manglic is valid 
+	2. Non Manglic to No Manglic -> is Valid 
+	3. Manglic --> Non Manglic -> either husband or wife will die.
+
+	Who is Manglic?
+	Who head of Planet is Tuesday (Mangal)
+	The Person who are born in tuesday will called as manglic.
+
+	Name Mangling?
+	100 % -> 2 or 3 (5%) People will Manglic.
+	Non Manglic -> Normal People.
+	Manglic are special/expectional.
+
+	Name Mangling : those variable or function or classes who naming convention is special in nature 
+	those are called as mangeled Indentifiers.
+	These naming conventions represents special meaning.
+
+	we use _ to represent, name mangeled Indentifiers.
+	1. __init___
+	2. __doc__
+	3.__pycache__
+	4.__init()___
+	5. __self__
+
+	these type of varible or functions are called magic varaible or magic functions.
+	 Where will we use this name mangling concept?
+	 
+	 1. in data hiding and data Abstraction :
+		in OOPS, we have concept, private,public, protected 
+		while naming the variable on the basis of private,public and protected.
+		we will use _
+		
+	 2. in oops only while making init constructor __init__()
+	 3.  in case of module concept(s) __name__ or __main__ or __doc__
+	 
+	 _ is special operator in python ?
+	 ====================================
+	 1. _ it acts as buffer operator : it remember the most recent output or result.
+		 during the runtime execution of the program a temporary memory is assigned to the program.
+		 and this memory can hold, very less amount of data.
+		 and this memory is called buffer memory.
+		 
+		 Same concept is application in youtube /
+		 00.00                                  3.00
+		 -----------------------------------------
+		 ------streaming line-----> streaming line
+		 -----------------------------> Buffering line
+								Buffering line - streaming line 
+								
+								
+	 2. _ is reserved is name mangling
+	 3. _ is reserved as space delimeter or numeral delimeter.
+		This is makes easy to read long numbers. in crore or lakhs it becomes easy read.
+		
+	 we have one more special keyword which is reserved in python?
+	 j is special keyword that represent special meaning.
+	 j is called imaginary numbers in complex number 
+	 Maths
+	 ========
+	 z = a+ib 
+		i => imaginary.
+		a => real part of complex number.
+		b => imaginary of complex number
+		i => iota.
+		
+		
+	 python has inbuilt complex numbers.
+	 python uses j to identify iota 
+	 z=a+jb
+	 
+	 why ?
+	 Python is used by IOT Poeple ? 
+	 Electrical and Electronics people also used python with resberrypie
+	 
+	 have you learn about electrical circuit ?
+	 Three Phase Motor -> AC Circuits -> Impledance (Resitance Inductor,Coil,Capacitance)
+	 Z^2 = Real Part and Imaginary (Phi) Power Factor 
+		
+	 Electrical Circuit (I)  -> current 
+	 i -> current 
+	 complex number -> j 
+	 
+	 Concept 2:-
+	 ===========
+	 i is reserved(convention) for iteration 
+	 i for loops, -> i will reserved for semantic difference and to represent complex number they will 
+	 use, j 
+	 
+	 Note : even though _ and j has special meaning, they are not reserved keyword.
+	 what is proof that _ and j are not reserved ?
+	 keyword : word (combination of character)
+	 
+	 _ and j -> single character -> they cannot represent keyword.
+	 _ and j -> will breaks the rules of naming convention.
+	 They donot come one the list of keyword in pythons.
+	 
+	 @name :- this not a varible.
+	 when you will study for class and Object
+	 there will be one concept called as decorator.
+	 
+	 decorator are declared using @
+	 example of decorator.
+	 
+	 keywords in python:- 
+	 ======================
+	 keywords are reserved words that represents special meaning 
+	 in the python.
+	 
+	 wap a program in python to show the list of python keyword?
+	 there 35 keyword in python 
+	 out of the 35 keyword : all are in lowercase 
+	 3 are in Title case /Capital Case : True, False, None 
+	 
+	 1. BLOCK CASE : [A][W][N][I][S][H] [K][U][M][A][R] 
+	 2. Capital Case : Awnish 
+	 
+	 Display the keywords in 4 Columns and Nth Rows so that, 
+	 we can easily read it.
+	 
+	 How to make constant :-
+	 once declared we cannot re-instialise
+	 
+	 GRAVITY : 9.8
+	 1. Make them frozenset : readonly
+	 2. using the property decorator.
+	 
+	 04-June-2025 
+	 ===============
+	 
+	 Agenda :-
+	 1.  Operators there use case 
+	 2. Decision controls and Loop controls.
+	 
+	 Operator: is a Symbol which  help in evaluating the result of an expression
+	 or operands.
+	 
+	 2+2 = 4-> result 
+	 | |-> operand 2
+	 operand 1
+	 
+	 x+y = ?
+	 2 + 2 = 4
+	 2*2 = 4
+	 2-2 = 0 
+	 2/2 = 1
+	  
+	  2 [-] 2 = 0 
+	  Operator : is a symbol that tells the relationship b/w two variable,(x,y)
+	  which on being perform will give some result.
+	  
+	  
+	 How many type of operators are there?
+	 Trick: Are Re Kon(con) Log special Bit Assign Karengey
+	 
+	 1. Are :Arthematic Operator 
+	 2. Re : Relational Operator
+	 3. Con : Conditional Operator
+	 4. Log : Logical Operator 
+	 5. Bit : Bitiwise Operator
+	 6. Assign : Assignment Operator 
+	  
+	  Operators classificaiton :-
+	  
+	  1. unary operator : 
+	  those operator which 
+	  operate on single operand(variable)
+	  2. Binary Operator (dual) : exactly 2 Operands will be there 
+	  3. Ternary Operator : exactly 3 operands  
+	  
+	 chemistry : 
+	 NCERT 2nd chapter : Solution chapter 
+	 What is Binary Solution:-
+	 solute + solvent  = Solution
+	 
+	 Maths
+	 x + y = Result 
+	 a + b  = ?
+	 
+	 Re : Relational Operator
+	   == : equato 
+	  != : not equal to 
+	  > : greater than 
+	  < : less than 
+	  >= : greater or equal to 
+	  <= : less than or equal to 
+	  
+	  As per the Relationship it will return True, False
+	  
+	  conditional Operator:- is done using Ternary operator 
+	  expression? <true>:<false>
+	  but python does not support ternary operator.
+	  ? : 
+	  
+	But we can achieve ternary operation using 
+	inline and if else
+
+	conditional operator : it is called short hand of if and else 
+	-> ternary  operator 
+	expression ? true  : false 
+
+	1. expanded if-else (if-else)
+	2. inline if-else  (ternary operator)
+
+	Logical operator :-
+	1. && : and  
+	2. || : or 
+	3. ! : not 
+
+	Operation Output Truth Table:-
+	and Operator 
+	x  and y    
+	0 and 0 : 0 
+	0 and 1 : 0 
+	1 and 0 : 0 
+	1 and 1 : 1 
+
+	x = papa 
+	y = mama 
+
+	and operation is all about love marriage 
+
+	Assign : Assignment Operator 
+	it is short form of assigment operation 
+	x=10
+	x=x+2 -> 
+
+	print(x) #12 
+	x=10+2 => 12 -> store -> x
+
+	Right operation -> left assign 
+	we can make the short cut of these operation 
+
+	x=x+2 
+	x+=2 
+	x*=2
+	x/=2
+	x//=2
+	x%=2 
+	x**=2
+
+	Special operator :-
+	1. Indentity operator 
+		1. is 
+		2. is not 
+	2. membership : 
+		1. in 
+		2. not in 
+	3.  String Repeat Operation hello*3 => hellohellohello
+		Notepad : 12,000 (sipher)
+		 
+	04-June-2025:-
+	===============
+	Decision Control and Loops controls:-
+	Decision Controls :- These controls help execute the statement on the basis of
+	condition.
+
+	Types of decision controls 
+	1. switch case
+	2. if statement 
+	3. if-else statement 
+	4. if-elif-else statement 
+	5. nested if else 
+
+	switch case : switch is not officially supported in Python
+	But in python 3.10+ instead of switch match case statement 
+
+	syntax :-
+		switch(value){
+			case 1: 
+				statement 
+				break
+			case 2:
+				statement
+				break
+			case 3:
+				statement 
+				break
+			default:
+				statement
+				break;//optional
+	}
+
+	concept of blocks in python:-
+	==============================
+	in other programming langauge like c,c++,java we have {} to represent blocks.
+	switch(){
+		//statement 
+	}
+
+	in that scenerio python we have concept of tabbed block, or Indentation Block.
+	All the statement that have equal amount indentation will fall under that Indentation Block
+	class, functions, methods, labels, decision controls, loops controls,...
+	in decorators as well.
+
+	{ -> :
+	} -> Indentation Block Remove (tabbed)
+
+	if is decision control which allows the execution of statement when it is true.
+	if block true then statement inside if block will execute else it will not execute.
+
+	open if : no brackets (paranthesis) to be used while writing the expression.
+	close if  : paranthesis) brackets to be used while wrtiting the expression
+
+	if <expression>:
+		statement 1
+		statement 2 
+		...
+		statement n 
+		
+
+	if (<expression>):
+		statement 1 
+		statement 2 
+		statement 3
+		....
+		statement n
+		
+	if this expression is true then decision control will execute else it will not
+	execute.
+
+	when ever two events or statement are opposite
+	to each or contradictory or reciprocal.
+	vice or versa. we must go else block.
+
+	we donot have concept of else-if statements.
+	instead of else if we have elif
+
+	open elif : drop paranthesis
+	closed if : include paranthesis
+
+
+	if <expression>:
+		statement 1
+		statement 2
+		statement n
+	elif <expression>:
+		statement 1
+		statement 2 
+		statement n 
+	else:
+		statement 1 
+		statement 2
+		statement n
+
+
+	Program:-
+	Electricity Bill generator 
+	reading 
+	100 unit 
+	rate = 3 Rs 
+	100 to 150 4 Rs 
+	150 or above 5 Rs Unit 
+
+	Ticket Pricing:-
+	age <=5 : Free 
+	age >6 and less than 10 : price/2 
+	age >10 and less than 18 : price/3
+	age > 18 : price complete 
+
+	where ever we have multiple statements condition
+	we must go for the elif statements.
+
+	level of iteration:-
+	if() 1
+	if() 
+	if() 1
+	if() 
+
+	Note: multiple if can execute more 1 times 
+	but elif blocks will only execute at once.
+
+	where to use elif :-
+	where ever, condition are multiple but the result is one.
+
+	nested if and else :-
+	one type of if-else statement may be inside 
+	if-else statement 
+
+	Possible of no cases:-
+	1. o/if inside i/if
+	   o/if -> false -> in/if (true/false)
+	   
+	2. o/if inside i/if-else 
+	3. o/if-else inside i/if-else 
+
+
+	valid condition are :
+		outside : if-else 
+		inside : if-else 
+		
+	1. if-else 
+	   if-else inside if but not in else 
+	  
+	2. if-else inside else but not in if 
+	3. if-else inside if and else both 
+
+	syntax:-
+	Match Case is aternative of switch:-
+	python has 2 types of keywords 
+	1. hard keyword list : this is standard keyword list and it will remain 35 Keywords
+	2. soft keyword list  : if new version increase and if want to new keyword we 
+	add them in softkwlist
+
+	Al-together 39 Keywords ?
+	1. <3.10.x : 35 Keywords 
+	2. >3.10.x : 4 keywords , _, case , match and type 
+
+	05-06-2025:-
+	==============
+	Looping statements:-
+	when we want to execute some statement n of times, then we go for 
+	looping statement.
+
+	in Python we have 2 types of looping statement 
+	1. while loop 
+	2. for loop 
+
+	Note : we donot have modify operator like increment or decrement 
+	increment operators like i++ and decrement operator like i-- 
+	is not available
+	so How to perform increment and increment 
+	x=x+1 : valid
+	x+=1 : valid 
+
+	x=x-1 : valid 
+	x-=1 : valid 
+
+	x++ : invalid 
+	x-- : invalid 
+
+	syntax of while:-
+	=================
+	intialisation 
+	while(expressi|condition):
+		statement 1
+		statement 2
+		statement n 
+		updation
+		
+	Eg:-
+	#wap in python to show the demo of the while statement 
+	#Example 1:
+
+	i=1 #intialisation
+	while(i<=10):  #condition
+	   print('Hello',i)
+	   i+=1 #updation
+	   
+	   
+	Loops in general
+	===============
+	1. 	we have 2 types of looping 
+		1. infinite loop : Any loop which goes on executing infinite.
+		2. finite loop : which runs for some fixed of iteration.
+		
+	   
+	How to run infinite Loops:-
+	=========================
+	1. while True: 
+		or 
+	   while(True):
+	   or 
+	   while(1):
+	   or 
+	   while 1:
+	   
+	   
+	How to convert to this to the finite loops:-
+	=============================================
+	 1. Make a infinite loop 
+	 2. convert this to finite loop
+		1. start limit i=start_limit 
+		2. end limit if(i==end_limit)
+	3. in order to maintain the loop counter we must increment/decrement the counter.
+
+	How to convert this syntax to while loop:-
+	=============================================
+	1. Remove if block 
+	2. Take the not operation of if condition
+	3. Replace True 2nd step 
+
+	if you want to break the loop in the middle of some condition we can break 
+	statement.
+
+	for loops:-
+	=========
+		1. for as for loop 
+		2. for as foreach loop
+		3. for with collection
+		
+		possible no of cases with range():-
+		===============================
+	>>> l = list(range(2)) # 1 argument start = 0, end = n-1
+	>>> l
+	[0, 1]
+	>>> l = list(range(1,5)) # 1 argument start = 1 (inclusive), end = 4 (exclusive)
+	>>> l
+	[1, 2, 3, 4]
+	>>> l = list(range(1,5,1)) # 1 argument start = 1 (inclusive), end = 4 (exclusive)
+	>>> l
+	[1, 2, 3, 4]
+	>>> l = list(range(1,5,2)) # 1 argument start = 1 (inclusive), end = 4 (exclusive) and step = 2
+	>>> l
+	[1, 3]
+	>>>
+		
+	syntax of for loops:-
+	========================
+
+	for(i in range(5)) #0,1,2,3,4
+		print(i)
+		
+	06-06-2025:-
+	================
+	1. Functions and Modules and Packages.
+	2. we discuss import built in modules.
+
+	Saturday ie Date : 07-06-2025,
+	The class will remain, off.
+	Sunday : will continue Python 
+	Gen AI : Basic Algorithms we will cover from Monday.
+
+	What is function:-
+	====================
+	Functions:- is a Block of code, which perform some specific Task.
+
+	Advantage of functions :-
+	===========================
+	1. Memory utilisation:-
+	2. Re-usability of code 
+	3. easy to maintain
+	4. increases readability 
+	5. keep the Application Organisation.
+
+	Memory utilisation:- 
+	  Your Program contains n of lines 
+	  file name :p1.py ---> memory --> allocate ---> execution 
+	  Memory will not realease until and unless your entire execution of file 
+	  is finished..
+	  
+	  p1.py 
+	  -------
+	  1 to n of statement 
+	  say : n= 100 
+	  This Problem will be easily resolved by using functions.
+	  
+	  n = 100 
+	  f1(){ --------> f1 ---> Memory ---> execution ---> memory f1 will be released.
+		1 to 50 
+	  }
+	  
+	  f2(){ --------> f2 ---> Memory ---> execution ---> memory f2 will be released.
+		51 to 80
+	  }
+	  
+	  f3(){ --------> f3 ---> Memory ---> execution ---> memory f3 will be released.
+		81 to 100
+	  }
+	  
+	  Programming methodology/Paradigm:-
+	  ====================================
+	  It is concept or Mechanism of Software Development.
+	  it is standard, Technique adopted by, developer to write, standard code.
+	  and coding practises.
+	  
+	  1. Mono-lithic : when you write the code in single file itself.
+	  2. Poly-lithic : when you divide your source code into multiple files
+	  then it is called as poly-lithic.
+	  poly-lithic Approach is also called as modular programming.
+	  
+	  modular Programming can be further divided into different methodologies.
+	  
+	  1. Procedural : it something like mono-lithic, 
+		we write step by step solution but in poly-lithic approach we write these
+		step by step solution in different files.
+		
+	  2. functional : writing the logic in form of user-defined functions.
+	  3. Object Oriented  : using oops concept of class and Object to write the logic.
+	  
+	  4.** Design Patterns : Advance Patterns of OOps from GOF as per gang of 4
+			there are 23 design Pattern.
+			
+			
+	What are design patterns:-
+	=================================
+	23 design Patterns : And These design Pattern gives framework on How to write 
+	different different approaches for different functionality 
+
+	For Eg:-
+	Database connection: - we have something called singleton class.
+	singleton class is a kind of design Pattern.
+	Your database class must have only single database Object.
+
+			
+			  singleton class (object = 1)
+		(select)    |
+	  App1 ---------db--------> Mysql connection
+				  /  |   \
+			 user1,user2,user 3 (drop)
+			 (delete) (insert)
+	  
+	  user 2 
+	  user 3
+	  
+	design Pattern also helps in Solid Principal.
+	  
+	Types of functions:-
+	1. Ready made function : those functions which comes predined by the PL.
+		python-> install -> type,len,print,round,int,list,... these are 
+		pre-defined functions.
+		
+	2. user defined functions : which are not pre-installed, user is responsible 
+		for creating that functions.
+		
+		Note : Every Ready made function is once, user-defined functions.
+		Guido Van Rossum -> invented python -> len(),print() 
+		user-defined.
+		
+		but for us, it is pre-defined.
+		one function may be user-defined for 1 person 
+		but may pre-defined for another person.
+		
+		
+		syntax of user defined functions:-
+		==================================
+		def <function_name>(parameter):
+			 '''doc string '''
+			 # comment line 
+			statement 1 
+			statement 2
+			...
+			statement 3
+			return statement may or may not 
+		
+		Note : if you donot declare any lines of codes, it will give hence 
+		we can write either docstring, pass keyword.
+		
+		you cannot keep function definition as empty.
+		1. minimal level : docstring
+		2. pass keyword.
+		
+		function naming convention is same as, Indentifiers
+		1 same rules variables, functions,classname,...
+		
+		
+	functions classification:-
+	=============================
+	functions are classified into 4 categories
+
+	1. No Argument No Return type
+	2. With Argument No Return type 
+	3. No Argument with Return Type
+	4. with Argument with Return type
+
+	Explaination:-
+		function can take input /give output.
+		if we want input in functions -> supply Argument or Parameter 
+		if we want any output from function -> then we will use, return
+
+	if we talk about binary n=2 	
+	minium no of input n=2 
+	we have combination 
+		I(in)	O(out)
+	---------------------
+		0   	0 
+		0   	1
+		1   	0 
+		1   	1
+		
+
+	In Python we can return multiple values:-
+	1. as a collection 
+	2. as a tuple set or csv (comma seperated value)
+	  generally we know that, in order to make a tuple we 
+	  need () round brackets but while returning from function 
+	  python will automatically make tuple.
+	  
+
+	08/06/2025:-
+	===========
+	Types of Arguments:-
+	1. position Arguments 
+	2. keyword/named Argument
+	3. default argument 
+	4. var-arg or variable length argument.
+
+	position Arguments :-
+	======================
+	def add(x,y):
+		print('result',x+y)
+		
+
+	add(1,2) #x=1 and y=2
+
+	position of arguments that will decide which type of value will be set in 
+	which variable.
+
+	default arguments:-
+	======================
+	Those Arguments, which have already predifined value if we donot pass 
+	any value to that argument it takes by-default value.
+
+	1. Default Argument must be last argument of the functions.
+	Functions always follow Dry wala funda ?
+	Dry : Do-not Repeat Yourself.
+
+	Achar is Like Functions,
+	Make once used N of times.
+
+	Keyword Argument:-
+	====================
+	python allows us to path the argument directly with argument name or 
+	argument as keyword,
+	Advantage : position does not matter.
+
+	Variable length Argument:-
+	=========================
+	It allow to pass any of dynamic argument
+
+	Positional length Argument : tuple argument : *args  -> *t
+	keyword length Argument : dictionary argument : **args -> **d
+
+	Anonymous functions or Lambda function or Inline:-
+	====================================================
+	function which donot have any name:-
+	if a function does not a name how will will call him
+
+	syntax of lambda expression:-
+	1. lambda expression : return expression
+
+	call by value and call by reference in python:-
+	==============================================
+	when ever we pass argument with some value the values is assigned 
+	to that variable for temporary basis not permanantly 
+	Meaning : at new call we can use new value.
+
+	Call by Reference : call  by pointer, 
+	Techniacally python does not support pointer.
+
+	call by value : call by assigment 
+	call by reference : call by object.
+	when ever you call any value from python python will pass object as reference.
+
+	in mutability :- changes allowed/change not allowed.
+	int,float,str,tuple : call by value.
+	list,dict,set,class Object : call by Refernece.
+
+	variable : Tag Name for any Object 
+	when you pass a varible to any function you are passing the label not actual value.
+	Rule 
+	1. if Object is immutable so any change in Object will new Object.
+	2. if Object is mutable so any change in Object will not new Object that 
+		in order save memory it will utilise the same Object.
+		
+
+	09-06-2025:-
+	==============
+
+	Todays Agenda:-
+	1. 30 Minutes we have discussion which is modules and Packages.
+	2. How to Set Up Environment for Python Data Sciene and ML 
+		Flavours of Python
+		1. Native Python 
+		2. Using Anaconda 
+		3. Using Miniconda
+		4. Google Collab.
+		
+	3. Theorical concept and basic of AI,ML,DL, and NLP. as well.
+
+	Python is very Famous for Its wast range of packages.
+	There are almost 300+ Packages, and it is not possible to all 300+ packages.
+	we will try most of important packages, which will be required to start
+	Data Science and ML as a Career.
+
+	Pre-requistic to start with AL and ML :-
+	=========================================
+	1. Watch All Vedios of Python I covered.
+	2. Do sit with Notes and Try to Make your Own for Al and ML.
+	3. Do Practise.
+	4. Do Watch vedios Again and Again.
+
+	module:- Each and Every python file itself a module.
+	p1.py -> module file.
+
+	Python files can contains,
+	1. variable,constant,functions,another python file,class contain...etc,
+	module is collection of variable,constant,functions,another python file,class contain...etc,
+	and methods.
+
+	Note : Every python you make is itself, module.
+	if every python is module that means it imported and exported.
+
+	Demo python module:-
+
+	module Aliasing :- 
+	Meaning of aliasing giving petname.
+	If any modules has bigger name and you want to make smaller name.
+	use module aliasing
+
+	syntax :-
+	import math
+	math.sqrt()
+	math.pow()
+	math.ciel()
+	math.floor()
+
+	import math as m 
+
+	m.sqrt() //valid 
+	math.sqrt() //NameError No such Module exist.
+	Note : if new name is created then old name cannot be used.
+	And this valid for pre-defined Modules and custom modules.
+
+	universall import or wild card import.
+	======================================
+	universall import /wild card import. or select * import 
+	Database : 
+	select * from tablename;
+	* select all columns.
+	if want to import all the methods of the module.
+
+	Advantage of using * we donot need a petname/alias name for reference.
+
+	Problem with * import, 
+	when you import * All methods are loaded in memory.
+	Even if we donot required all the methods.
+
+	if a Module A has 100 Methods in this case, and we only require 5 Methods
+	in this case other 100-5 Methods =  95 Methods will waste our memory.
+
+	concept of member import :-
+	member import allows only those members to be imported which are actually
+	required.
+	This concept works for both,build in and custom.
+	we can give aliasing to member import
+
+	modules and packages:-
+	========================
+	After Python 3.6+ Version
+	modules : single file 
+	Multiple python files put into a folder is said package.
+
+	a.py  --> m1  
+	b.py  --> m2
+	c.py  --> m3
+	  |	
+	  abc <abc>
+	  
+	  abc becomes as a package.
+	  it is mendatory for a package to contain special file 
+	  name __init__.py 
+	  Any code written in __init__.py is automatically executed.
+	  
+	  package may contains multiple packages
+	  and these packages are called as, sub-packages.
+	  
+	 syntax of import :-
+	 ======================
+	 from package.subpackage import module as aliasname
+	 or 
+	 from package.subpackage import *
+	 or 
+	 from package.subpackage import abc,xyz,prs
+	 or 
+	 from package.subpackage import abc as a,xyz as x,prs as p 
+	  
+	  python -m pip list 
+	  you will get list installed packages.
+	  
+	  What is this pip ?
+	  pip stands python package Manager 
+	  pip : package installer for python 
+	  
+	  pip can help to install external packages.
+	  command :-
+	  pip install packagename 
+	  or 
+	  python -m pip install packagename 
+	  or  
+	  python -m pip uninstall packagename 
+	  or 
+	  pip uninstall packagename 
+	  
+	  How to set up our package and convert into wheel file:-
+	  =======================================================
+	  __name__ and __main__ 
+	  
+	  __name__ : 
+		1. __main__ : it you executing the real file.
+		2. otherwise we get the name file.
+
+		Package 
+		1. There a folder name with valid name 
+		2. it must contain __init__.py 
+		3. This package can contain multiple package.
+		4. if your package contain subpackage it must contain __init__.py
+		
+		in order to publish our package, in Pypi?
+		pypi : python package index : 
+		it is public centralised cloud where all packages/builds/realease 
+		and different distribution can be found.
+		if you want your package to be publically available to world.
+		
+		we publish our package where in pypi.
+		we can publish in form,
+		.exe : it will run only in windows.
+		.zip : it will heavy
+		.tar.ball : higly compressed, very small in size, its extraction is 
+		 very time consuming
+		
+		python special build file this build is called wheel file.
+		extension : .whl
+		
+		what is wheel ?
+		=============
+		1. (.whl) is extension of wheel
+		2. it is build/release file of python package.
+		3. it is like exe for windows.
+		4. it is binary file 
+		5. it very faster then any exe,zip,tar file
+		
+		How to install wheel file:-
+		============================
+		pip install your_package.whl
+		naming convention : package-name-versoion-py-x-none-any.whl
+
+		why do we use .whl?
+		=====================
+		1. faster in installation 
+		2. cross plateform.
+		3. plateform independent.
+		4. easily published in pypi. (python package index)
+		
+		steps:-
+		1. Make ready to your package.
+		2. root folder you need a special file 
+			setup.py
+			
+		project structure
+		
+		my-package 
+			|-------> package
+			|			|__init__.py
+			|			|m1.py
+			|			|m2.py 
+			|
+			|
+			|-> setup.py 
+			|-> readme.txt/readme.md (optional)
+		
+		
+		you have write some code in setup.py 
+		
+		from setuptools import setup,find_packages
+		
+		setup(
+			...
+			...
+		)
+		
+		How to build:-
+		================
+		Make sure you have wheel install
+		pip install wheel 
+		or 
+		python -m pip install wheel
+		
+		=> command to make wheel distribution:-
+		==========================================
+		python setup.py sdist bdist_wheel
+		
+		After some process
+		One folder with dist/my-package-version-python-version-none-any.wheel
+		
+		we will install this package and test:-
+		========================================
+		pip install dist/my-package-version-python-version-none-any.wheel
+		
+		twin package:-
+		=================
+		twin package is used to publish your package build pypi.
+		
+		
+		save the taken:-
+		==============
+		
+		-- Save your token :
+		
+		How to publish:-
+		=============
+		1. pip install twine
+		2. twine upload dist/*
+		Enter the Api Token Key:- 
+		
+		
+		How to generate API Token Key:-
+		==================================
+		1. Register/Login pypi 
+		2. Verify the Primary Email 
+		3. Enable 2fa Authentication 
+		4. to verify to will ask you store recovery codes.
+		 out 4 grid, use any one token to verify 
+		5. enable authy for 2fa in mobile scanning Qr.
+		6. GENERATE THE API TOKEN KEY : make sure you keep it safe, becomes, once lost 
+		have to be created again.
+		
+	Introduction of AI and ML and DL and NLP:-
+	=========================================
+	AI: Artificial Intelligence
+	ML : Machine Learning 
+	DL : Deep Learning 
+	NLP : Natural Langauge Processing.
+
+		1. Anaconda 
+		2. Google Collab
+		
+	11-June-2025:-
+	==================
+	What is AI (Artificial Intelligence)
+
+	AI is field of CS that aims to build such machines which can copy/mimic/replicate/imitate the human Intelligence
+
+	Myth:-
+	machines : Donot consider AI to be as Iron Man Suit 
+	Machine : can be simple script, a simple bot, or Some Highfi Machine like Robot.
+
+	What comes under human Intelligence?
+	1. creative thinking or cognative thinking.
+	2. decision Making
+	3. learning (learning from mistakes)
+	4. problem solving.
+
+	Al at current June 2025, No AI can be as creative as human.
+	Ai propotype Human 
+
+	Real Life Example or Use cases:-
+	==========================
+	1.  Google Map :- 
+		1. traffic detection.
+		2. Path Detection and Optimisation.
+	2. Chatbots  : chatgpt (intially 1.0 Now it all-rounder)
+	3. sefl-driving car like Tesla : (Tesla Autopilot)
+		Plans already have auto-pilot mode.
+	4. Face ID Unlock.
+	...
+	...
+	...
+
+	Branches of AI :
+	=====================
+	1. ML (Machine Learning)
+	2. Computer Vision : Highly Challan Camera.
+	3. NLP : Natural Langaue Processing 
+	4. DL : (Deep Learning)
+	5. Robotics. (chitti..,terminator)
+
+	Difference Between Automatic Machine and AI ?
+	1.   Automatic Machine : effeciency : 100%
+	2.   AI Machines : effeciency : 100%
+
+	Errors,  100 times -> Same Error 
+
+	classificaiton of AI :-
+	===============================
+	classification of AI is based on reliability & capability(ability) & effeciency.
+	and trust value.
+
+									-capability       			Agent
+	1. Narrow AI :  				Task Specific.    			Google Assitant,See,Alexa.
+	2. General AI/Fictious AI     Human Level Intelligence
+											 &
+								Human Level Adaption and Behaviour. Jarvis or Chitti
+								
+	3. Super AI :     Super Human Ability 							ultron,Nebula,
+																 Her Movie(Science ficiton)
+																	   Kalki.		
+
+	Narrow AI :
+	coding : claud.ai (Anthropy)
+	Imaging : MidJourney
+	content writing : Chatgpt 
+	Research Paper : Research/Learning/study.(perpexility.ai)
+
+	Which is first AI Machine?
+
+	Automata (TOC) : Last Unit : Turing Machine.
+	Turing Machine : first theoratical Machine and this is ultimate
+	which gives basic foundation any computation.
+
+	Nobel Prize: Award Turing Award -> Alen Turing -> Turing Machine.
+	Term Launch ? Can Machine think like Humans.
+	Elon Mask : AI Driven Machine : Tesla -> "Mark My Words, Ai is far dangerous than we think"
+
+	We are living Narrow AI 
+	=========================
+	History/Evolution  : Homework.
+
+	Classificaiton of AI in ML,DL, NLP?
+	=====================================
+	Machine Learning:- 
+	it is Technique/way/process by which computer learns from data, insteading
+	predined Rules.
+
+	we have many system which can learn from data and perform 
+	task. How are they different from ML.
+	Eg: computer Game Playing, of Teken 3 
+
+	ML should not use, Hardcoded Rules, Patterns.
+	In Ml we provide data and label set (Yes or No)
+	Automatically Identify the Pattern and Learn.
+
+	Types of MLS :-
+	1. SL (Supervised Learning)
+	2. USL (Un-Super Vised Learning)
+	3. RL (Re-inforcement Learning)
+
+	In Real Life we have cases of Semi-Supervised Learning?
+	1. structured : classify 
+	2. unstructred : -> new Pattern identify -> Emdeddings -> Nearest
+	Neibhhood or Nearest Node Search (Graphs Algorithms.)
+
+	Core of AI : a Core of AI can be assumed a mathematical function f(x) which has some input I and 
+	called as Indepedent variable (Independent Features)
+	Output variables/output Pairs (dependent Features.)
+
+	y=f(x)
+	y dependent variable 
+	x independent 
+
+	y = 4x (x=1,2,3,...)
+
+	SL (Supervised Learning) 
+	===========================
+	1.Labelled Learning 
+	2. Learn from Label Data 
+	Eg : images 
+			1 Apple   2 Orange 
+			
+	or 
+	Supervised Learning is a type of learning which is done under some mentorship(under supervision)
+
+	Example :- Super vised learning 
+	1. House Price Prediciton 
+
+	Features/data : size(1 BHK,2 BHK),location
+	Label : Price 
+
+	Algorithms:-
+	===========================
+	1. Linear Regression (for prediction)
+	2. Logistic Regression (for classification)
+
+	Eg:- Email -> subject line -> "You won Lottery " ->
+		1. spam 
+		2. Ham (Not a Spam)
+		Filters -> classifiy -> emails of spam and not spam 
+		
+	3. Decision Tree(*imp)
+	4. Random Forest (**vvp)
+	5. Support Vector Machine(svm)
+
+	Use case How we can use Logistic Regression in Spam Detection?
+	1. Input(FI): 
+			email subject/email body ---> Regrex/text Processing
+											|
+											|
+										corpus (message or paragraph)
+											|
+										documents (sentences)
+											|
+										words/unique words
+											|
+										vacubalary
+											|
+										context free grammer
+											|
+											|
+										Feature Extract
+											|
+											Model 
+											(Train)
+											|
+											|
+										classification
+											|
+										Predict
+											|
+										spam or not 
+											
+					 
+	un-supervised Learning:-
+	The type of learning in which system learns without any supervision
+	or mentorship.
+
+	data + but not label
+	1. we have data but no labels.	
+	what is our end goal : Identify the hidden Patterns or Structure,
+	or symmetry.
+
+	Example:-
+	customer Identify In Retail Service.
+
+	Features : Age,income,spending
+	Identify : Luxury Buyer, Budget Buyer, commericial Buyer and
+	Residencial Buyer.
+
+	Algorithms:-
+	1. K Means clustering
+	2. Hieririchal Classification or clustering
+	3. DBSCAN 
+	4. PCA (Dimension Reduction)
+
+	youtube vedio link: https://www.youtube.com/watch?v=3d5iyFSOTwA
+
+	12-06-2025:-
+	==============
+	Re-inforcement Learning:-
+	This is Ml Algorithms, Agents or computer or machine learns from rewards and 
+	punishment.
+
+	How Model will work:-
+	1. we have Model --> data set ---> Train (Input Feature & Output Feature)
+	2. Operation -> win cases or loss case lossedcases_data  = []
+	3. lossedcases_data -> train -> operation --> win & lossed.
+
+	Reward Driven.
+	use case :- Chess Game,Mario,Contro.
+
+	How the life cycle of reinforcment learning goes:-
+
+	1. Environment 
+	2. Actions
+	3. Reward/Goal
+	4. updates Policy
+
+	chess Board : Board Environment 
+	Pyadey : actions 
+	Reward/Goal : 
+
+	Algorithm:-
+	===============
+	1. Q Learning 
+	2. Deep Q Networks (DQN)
+	3. Policy Gradient 
+	4. Tensor Gradient 
+	5. PPO, A3C
+
+	Simple Explaination by Mahabharat:-
+	1. Arjun -> warriour -> learning -> Guru Dronacharya.
+		supervised Learning
+	2. Eklawya -> warriour -> learned -> archery without ->  Guru Dronacharya
+		learned without present of Guru Dronacharya
+		un-supervised learning
+	3. Karan : No At last very last stage, of Karan he was trained by 
+		Guru Parusharam
+		
+		Karan -> very talented since child hood, he learned everything
+		by implementation.
+		he made mistake and learned lot.
+		Re-inforcement - Learning.
+		
+	Re-inforcement Learning is inspired from environment.
+	small childrens are best example of Re-inforcement Learning.
+
+	Frog, Chockroach, Lizard, 
+	Chotey Bacche 
+
+	Mathematical Impression of Reinformcement Learning:-
+	======================================================
+	Chess Game in Terms Reinformcement Learning :-
+
+	RL : agent -> at initial level it make not take correct action.
+	Example :-> you can step wrong step, under the affect Environment and its consequences
+	these result will decide what will be next step.-> as you become -> more 
+	open to Environment -> you become more cleaver.
+
+	what is our learning creteria ?
+	1. trail and Error (TE Algorithm)
+	2. we donot have any labelled data.
+
+	Re-inforcement learning is kind of un-super vised learning where at intial level
+	we donot have any lebeled data, but as we interact with Environment our 
+	action to Environment result to effect.
+	and effect for next time will becomes data.
+
+	Re-inforcement is Recursive in Nature.
+	your past action will act as input data for next step.
+
+	Applying Mathematical Represenation of Chess in RL:-
+	=====================================================
+	RL Component     			|  chess Board 
+	-----------------------------------------------------
+
+	Agent               			Chess Player X -> Y (Opponent -> Agent)
+	Environment      			|  Chess Board and Rules
+	Intial State     			|  intial Position of pawn.
+	(Finite state of            |
+	Automata)                   |
+								|
+	Action/Moves                | A Legal Move of Queen, Bishop, Elephant,Horse.
+	Reward                      | +1 for win, 0 draw ,
+								|   
+	loss                        |  win by opponent 
+
+	<--------------------------1 chance ------------------------->
+
+	Policy (pi)                 |  strategy change 
+	Strategy 
+
+	value f(x)                  | strategy, Actions -> Reward/loss
+	End Goal
+									V of f(x) => R(f(S,A))
+
+
+	Q Factor/Functions = State + Action.
+
+	Write a Sudo Code for the RL in Chess Game:-
+	================================================
+	max_reward = 16
+	is_game_running = True  #false value of is_game_running : Game over 
+	while is_game_running:
+		state = get_current_position(x,y) #x Player X and Y : Opponent
+		action  = move_steps(state(x))
+		new_state,reward = next_steps_with_result(action)
+		if(reward):
+			state = get_current_position(x,y)
+			action  = move_steps(state(x))
+		elif(reward == max_reward)
+			is_game_running = False 
+			break;
+		elif(state == new_state):
+			if action == False 
+				game_draw()
+				is_game_running = False 
+				break;
+		else:
+			update_strategy(state,action,reward,new_state)
+
+
+	Introduction to Deep Learning:-
+	===============================
+	In Deep Learning, we try to build Artificial Network.
+	How Brains Works.
+	Axon:- Human Neuron 
+
+	Artificial Network. it is Mathematical Functions, which can accepts inputs
+	and extract feature.
+	Artificial Neural Network is a combination of Multiple Layers or Nodes to One Another.
+
+	3 tier Architecture :-
+	============================
+	1. Input Layers : it accept the inputs
+	2. Hidden Layer -> Complex Computation of Mathematical function.
+					  it responsible computation and handling complex logics.
+	3. Output Layer : feature extraction.
+
+	Real World Use cases:-
+	1. Self Driving Cars.
+	2. Speech to Text
+	3. Face Recognition
+
+	Architecture of Deep Learning 
+	1. ANN (Artificial Neural Network)
+	2. CNN (Convolutional Neural Network) - for Images & Images Processing
+	3. RNN/LSTM - Sequencial Data -> text/audio
+	4. Transformers -> Most Effeciency Advance of NLP.
+
+	What is CNN?
+
+	used to Identify the patterns,shapes,edges,objects...etc 
+	CNN have 3 Layers
+	1. CN Layer -> Detect Patterns -> Vector Size -> Large
+	2. Pooling Layer  -> Reduce the size by some ratio.
+	3. Fully Connected Layer -> Prediction of class,group or Hierarichy.
+
+	what is workflow of the CNN ?
+	CN Layer -> Pooling Layer -> Fully Connected Layer
+
+	Libraries:-
+	1. Tensorflow
+	2. Pytorch
+	3. PyVision /pytorchvision
+	4. Keras.
+
+	13-06-2025:-
+	==============
+	What is NLP ?
+	Problem Statement (Goal): we want the machine which understand, Interpret,generate the response 
+	for human langauge.
+	Inputs : text, audio, speech, visuals
+
+	Example:-
+	1. Sentiment Enalysis (Emotion)
+		Famous : Custom Review, Feedback,Social Media Posts, Comments.
+
+	Do you know about kaggle ?
+	Kaggle Open AI community, Learnes, Open Source, AI and ML Plateform.
+	Kaggle 1. 
+	comptition, hackathons, Real Time Problem (use cases + data set (model Train))
+
+	we will kaggle to basically for finned dataset.
+	we have 2 types of 2 data set 
+
+	1. training data set : mix type data, true and false, mixed cases.
+	2. validation data set/audit data set.
+
+	2. Machine Translation
+	3. I18n : Internationalisation -> Multi Lingual 
+	4. Text Summarization
+	5. Question Answering 
+	6. Named Based Entity Recognition.
+
+	NLP Pipelines :-
+	===================
+	Pipelines : it is step by step process  or stage by stage process that is mendatory to achieve
+	NLP based Problem.
+
+	Steps Involved in NLP Pipline
+
+	<----------|	1st Phase/1st step |-------------->
+	1. Data Cleaning (text cleaning/audio cleaning)
+	2. Tokenization : Breaking the Input into small,small-token (lexes or lexicals)
+	<-----------|	2nd Phase/2nd step	|------------->
+	3. Fine Tune 
+	   1. Stopword Removal (we remove stopping words, is, the, an,etc)
+	   Eg:-
+	Eg : The Ram is dancing in the Ground    
+		 -Remove The 
+		 Ram is dancing in the ground.
+		 -Remove is 
+		 Ram dancing in the ground
+		 -Remove in 
+		 Ram dancing the ground 
+		 -Remove the 
+		 Ram dancing ground 
+	   
+		2. Stemming Technique
+		3. Lemmatization Technique
+			 Convert the words to Root Form.
+			 Eg:- 1. eating,ate,eaten (eat)
+				  2. going, goes, gone (go)
+				  
+	<--------------|	3 Phase/3 Step (1d,2d)	|------------------>
+	Vectorization : we try to convert text data (words,sentence,grammer,corpus,vacubalary,documents)
+				   ----> In Vector(s)
+							|
+							|
+							| 
+	<--------------| 3 Phase/3 Step (1d,2d,3d)	|------------------> (optional)
+	Tensors : we try to convert text data (words,sentence,grammer,corpus,vacubalary,documents)
+				   ----> In Vector(s)
+					
+					How to do vectorization (convert text data to vector)
+					1. Bag of Words
+					2. Word2Vec/Glove 
+					3. TF-IDF.
+					...
+					...
+					...
+	<--------------| 4 Phase/4 Step (1d,2d,3d)	|------------------> (optional)			
+	Advance NLP Technique :- Chatgpt, Gemini, Google Translator
+	1. Embedding (Most Accurate, Result Set/Vectors)
+	2. BERT (Bi-directional Encoder Represenation from Transformers)
+		1. Encoder (uni-directional)
+		2. Decoder (uni-directional)
+		3. Bi-directional  Encoder and Decoder
+		
+	<--------------- 5 Phases/5 Step ------------------------->
+			 Transformer Techniques.
+		
+
+	14-June-2025:-
+	===============
+	Lets setup the Environment for the Python
+	1. Google Collab : it is Integrated Python IDE in google Account.
+		it run in cloud, no need to install python any where.
+		1. you can cpu runtime Environment.
+		2. you also get GPU runtime Environment.
+	2. Python Native : when we install python and code in global python environment.
+	3. using Anaconda Distrubution
+		1. Heavy : Anaconda distribution
+		2. Lower : Miniconda distribution
+	4. using Jupyter Notebook
+	5. using python venv
+
+	1. How to mount the google drive:-
+		from google.colab import drive
+		drive.mount('/content/drive')
+
+	2. How to connect google collab with github
+		
+		Your github Repository should contain valid 
+		notebook File to Run in Google Collab.
+		
+	 myenv\Scripts\activate -> My env Activate 
+	 myenv\Scripts\deactive -> my env deactivate
+
+	 How to install the packages from requirements.txt file :-
+	 ipykernal
+	 
+	 pip install -r requirements.txt
+	 
+	 How to directly use jupyter notebook:-
+	 ==========================================
+	 jupyter has two products
+	 
+	 1. jupyter Notebook :-
+		1. small to medium level application.
+		2. data set small.
+	 2. jupyter Labs 
+		1. large level application 
+		2. data set large 
+		3. Third Party Intergration tools.
+		
+		pip install jupyterlab
+		pip install notebook
+		
+		How to Run Jupyter Notebook:-
+		jupyter notebook
+		
+	  Local Setup 
+		1. vs code with myenv 
+		2. jupter Notebook 
+	  Cloud Setup 
+		1. Google Collaberatory 
+			1. Drive Connected By default -> mount drive
+			2. Source Code -> Github -> you can use it, by
+			Google Collab.
+			
+	15-june-2025:-
+	==============
+	Sunday : Holiday 
+
+	16-June-2025:-
+	=================
+	1. Clarification and Explaination when to use which type of setup 
+	in Lecture 15- I have told Many different Different Environment.
+	You can feel confusing which set up to use when.
+
+	if we want to work with any stack of python.
+	what is bare minimum (least to least) to work in python stack.
+	this requirement is common for any stack of python .
+
+
+	These are few application of python stack:-
+	==============================================
+	1. Python web development using Django or flask 
+	2. Python Api using fastapi.
+	3. Python Data & Science and AI and ML 
+	4. Python for GUI Development using Tkinter
+	5. Python for Gaming using Pygame
+	6. Python for Embedding Programming 
+	7. Python for IOT.
+	8. Python for Blockchain.
+
+	Answer the following question?
+	1. All these are different stack : Yes or no
+	2. do there requires different packages :yes or no
+	3. will the version of each package can be different 
+		for example 
+		python : 3.12
+		Django : 5.x 
+		flask : 3.x 
+		
+	4. Suppose I am working in web development 
+		Do I need to install other packages related to AI or ML , pygame,
+		or related GUI, or Related IOT, Block chain.
+		
+	5. for each application/stack there should common environment or 
+	   dedicate env each application
+	   Basic Environment should be same but packages but different stack 
+	   and different application should be different.
+		  
+	6. what is bare minimum requirement which common for all ?
+	   python is required for every stack 
+	   but Django is not required for IOT
+	   similary IOT is not required by blockchain.
+	   pygame is not required for tkinter.
+	   
+
+	python 
+	1.  Global Environment :
+			All packages will common to all the application.
+			
+	2. Local Environment (virtual Env) 
+	   packages which will installed as per application demand.
+	   All packages and version  will be available to, that application.
+	   we can store differt different version for different applicatio
+	   
+	   
+	Advantage of Local Environment (virtual Env) vs global Environment
+	1. No conflict.
+		Python Global Version 3.x 
+		App1 ----> Django 3.1
+		App2 -----> Django 4.5 
+		
+
+	2. Suppose global there 100 Packages.
+	   pygame,iot,django or flask, numpy,matplotlib.
+	   I need only those packages which are necessary for my application.
+	   
+	3. suppose if build, my package into wheel.
+	   so If will build wheel package using global env, 
+	   All the un-necessary will be added to my wheel. and 
+	   my package size will increase.
+	   
+	   But if i use only virtual env,(ie only those packages required by my package)
+	   then my wheel file will contain only those package which are actually 
+	   required.
+	   
+	   so we can wheel file build it virtual env while store only those package.
+	   which are actually required making the size lighter.
+	   
+	   
+	1. Global Environment
+	2. Local Environment (virtual env)
+	   
+	we are working in Data Science or AI/ML Stack
+	App 1 : 
+	Requirement :
+			  helps in Data Visualisation
+			  It can represent my information in charts, Dashboard and 
+			  graphically.
+			
+	Required Packages :
+	1. numpy
+	2. pandas
+	3. matplotlib
+	4. csv 
+
+
+	App 2 : 
+	Requirement :
+			 It want to Image Processing.
+	Required Packages :
+	1. numpy
+	2. pandas
+	3. tensorflow
+	4. pillow
+	5. opencv
+	6. pickel
+	7. pytorch
+
+	App 3 : 
+	Requirement :
+			 ML Related Application
+	Required Packages :
+	1. numpy
+	2. pandas
+	3. tensorflow
+	4. seaborn
+	5. scipy 
+	6. sckit-learn
+	7. keras 
+	8. matplotlib
+
+	App 4 : 
+	Requirement :
+			 I want to build NLP Package
+	Required Packages :
+	1. numpy
+	2. pandas
+	3. tensorflow
+	4. seaborn
+	5. scipy 
+	6. sckit-learn
+	7. keras 
+	8. matplotlib
+	9. nltpk 
+	10. spacy
+	11 . langchain
+	12. langraph 
+
+	when to use global:-
+	if you are, building  one type of application.
+	then you go for global package.
+
+	where will be difference
+	Like we have multiple IDLE's like vscode,sublime,pycharm,kite,brackets,notepad.
+	No difference.
+
+	Data Science and AI and ML :-
+	I want jupyter notebook : it web browser IDE for python.
+	spyder notebook is also same but only different it desktop based.
+
+	There are two ways to install jupyter notebook :-
+	1. using Data Science Distrubution
+	2. using Native Setup.
+	In Order to work with data science, 100+ packages are required.
+	1. One way to install each package one by one.
+	2. Another way to install some tool which could provide me all these, packages at once.
+
+	===================> New Scenerio <==========================
+	what is difference Cooker and Potato ?
+	1. Are cooker and Potato same : yes or no
+	   -Yes different 
+	2. are they Interelated or not :
+	   -Yes 
+	   
+	  Potato sabzi:- will cooker will be required.
+	  cooker : tool.
+	  potato : raw material which has to cooked.
+	  Potato sabzi : is end goal.
+	  
+	  
+	pycharm/jupyter/vscode/spyder -----> cooker or tool.
+	numpy,pandas,skitlearn,seaborn,... ---> potato.
+				  sabzi will be made /(ML/DS Related Application)
+	  
+
+	1. -One way to install each package one by one.
+		for 100 Package you need run 
+		
+		pip install <packagename-1>
+		pip install <packagename-2>
+		pip install <packagename-3>
+		pip install <packagename-4>
+		pip install <packagename-5>
+		...
+		...
+		...
+		...
+		pip install <packagename-100>
+		pip install <packagename-n>
+		
+		Shorcut :-
+		create one file that special file is requirements.txt 
+		write package name 
+		
+		requirements.txt 
+			numpy
+			seaborn
+			matplotlib
+			pandas
+			ipykernel 
+			scipy 
+			tensorflow
+			pickel
+			...
+			....
+		
+		pip install -r requirements.txt 
+		
+	2. -Another way to install some tool(bundle) which could provide me all these packages.
+		Anaconda contains everythings you require for Data Science
+		jupyter/spyder/ packages.
+		Due to this reason Anaconda is very Heavy.(5 Gbs.)
+		No Requirement of Donwloading packages.
+		
+		Anaconda has little Brother (small in size) miniconda
+		Rest Every Feature Remains.
+		
+		
+	Python we have 2 Global and local(env)	
+	Anaconda will installed globally then How to maintain Virtual Env for Anaconda ?
+	================================================================================
+	Have Cuda Programming NVIDIA is Main Person for GPU.
+	1. Cuda GPU Acceleration : Pre-installed.
+	2. Your Machine has GPU inbuilt in Hardware 
+		GPU Accelerator of NVIDIA 
+		
+		Nvidia to Nvidia then No conflict.
+		Nvidia to AMD then Conflict.
+
+		1st solution : to use some virtual environment
+						Anaconda provide you one virtual environment
+						Conda Environment.
+		2nd solution: To use GPU Machine of Nvidia.
+					1. use VM (Virtual Machine) using Oracle Box.
+					2. Cloud Infrastructure
+						1. Google Collab.
+						
+
+	  <ML-App:Gpu>
+		<cuda> ----------------> Api Interface B/w my application and GPU Hardware.
+	 <GPU-Machine>
+
+	 Ananconda is not python package 
+	 package (buddle) | combo system.
+	 it will in form .exe
+	 
+	 Todays Vedio Link : https://youtu.be/oDtI7-qp76o
+		
+		
+	 17-06-2025:-
+	 =============
+	 Introduction to Regex:-
+	 Any Expression which is regular Expression?
+	 Regular word "is" related to the sequence.
+
+	 Q1: How to become Good Software Engineer ?
+	 3 Mantras to be Good Software Engineer.
+
+	 1. ctrl+f
+	 2. ctrl+c 
+	 3. ctr+v
+	 
+	 
+	 90% percent of poeple same thing.
+	 Now since Chatgpt, such write the Error ctrl+c and ctrl+v.
+	 
+	 You must know the funda Just for Interview Purpose.
+	 when inside company, no body, going to see if you writing code 
+	 from chatgpt or from self.
+	 
+	 
+	 when you try to search any thing in google 
+	 google uses concept of Regex.
+	 when you right some prompt, chatgpt or LLM uses 
+	 Regex concept to Indetify which statement is exactly.
+	 
+	 Some of the Application about Regex 
+	 1. Pattern Matching
+		window --> Ctrl+f 
+		Linux ---> grep command.
+		
+	  2. have you seen Login forms/Registration form.
+	  2. Regex is also used in form validation.
+		 client side validation (javascript)
+		 server side validation 
+		 
+	  3. Regex is used for validation and verification ?
+		 Validation ----> Pen cap Remove ---> Blank Page ---> write --> verificaiton.
+		 Fal ----> Kharbooza ----> Ye Meethey --->
+		 Haan Mithey ---> Validation ----> No Meeta (No Verification)
+		 Meetey ----> Validation ----> Triangle ---> Piece ---> Verification.
+		 
+		 In Software Engineering (validation and verification):-
+		 
+		 Validation : check if email matches following pattern or not 
+		 a-zA-Z0-9.@a-zA-Z89.a-zA-Z09  Matches then it is valid 
+		 
+		 Sending otp to email or some link to email Id to verify 
+		 the email is verification.
+		 
+		 G-719171  
+		 
+		 
+		4. Compiler Design 
+			Phases 
+			1. Lexical Analysis -----> Tokenization
+			2. Syntax Analysis
+			3. Semantic Analsysis 
+			4. Intermeidate Code Generation 
+			5. Code Optimation 
+				Symbol Table 
+				Parse Table.
+			6. Target code Generation (Machine Code)
+			
+			They have predefined set of Regex.
+			To build translator,compiler,assembler...
+		
+		5. Digital Logic Design , adder, full adder, multiplexer, Incrementor
+		   Binary Incrementor. in this case we require regex 
+		6. In Computer Network, TCP/IP Udp, or communication Protocol also 
+		   use Regex.
+		   
+		
+		In python if you want to work with Regex 
+		we use regex module 
+		
+		import regex as re 
+		
+		After 3.7+ Package a Major update regex was changed to, re.
+		or 
+		import re 
+		
+		re packages provide multiple methods and class to build 
+		compile, and work with regular expression.
+		
+		Java :-
+		java.util.regex 
+		
+		what is Regex?
+		Regex is syntactical sequence or pattern of character that Identifies.
+		a special Pattern about some entity.
+		
+		Mobile No  : Pattern E1
+		Adhar No : Pattern E2
+		Regex is plateform dependent.
+		This concept is available in every programming.
+		No doubt syntax could be difference concept remains the same.
+		
+		syntax of Regex:-
+		=====================
+		Regex Pattern : /pattern/flags 
+		/pattern/i : in-case-senstivity a==A 
+		/pattern/g : global match.
+
+		
+		Rules of Regex:-
+		==================
+		
+		1. and conjuction Rule:-
+		======================
+		Regex Rule 
+		aaa => a and a and a 
+		
+		2. or conjuction Rule:-
+		======================
+		[abc] => a or b or c
+		
+		3. no order policy/Rule 
+		=======================
+		[abc] => a or b or c
+		[acb] => a or c or b
+		[bac] => b or a or c
+		[bca] => b or c or a 
+		[cab] => c or a or b
+		[cba] => c or b or a
+		
+		Inside [] Square bracket there no order 
+		applicable.
+		
+		[0-9a-zA-Z] equal [a-z0-9A-Z] equal [A-Z0-9a-z]
+		
+		4. Hyphen Sequence Rule:-
+		===========================
+		anything which has - represent a range.
+		a-z (small letter from a to z)
+		A-Z (upper letter from A to Z)
+		0-9 (digit range)
+		
+		5. size conjuction Rule :-
+		===========================
+		when ever we talk about size 
+		size is represented using {}
+		1.case : min and max 
+		{2,5}
+		min size : 2
+		max size : 5
+		
+		2. exact size 
+		{5} : exact size = 5
+		
+		3. n or more size 
+		{n,}
+		min size n and max is => Infinite.
+		
+		Note Anything Outside [] becomes 
+		mendatory.
+		and square bracket that is optional.
+		
+		
+		starting Regex match Rule:-
+		============================
+		if you want your regex to from begining 
+		^ (carrot|raise)
+		
+		Ending Regex match Rule:-
+		==================================
+		if you want regex to match from end 
+		$ (dollar)
+		
+		Note in python to match from starting
+		
+		match.start()
+		match.end()
+
+
+		What is Pattern of Indian Pattern?
+		digit : 10 
+		
+		{10}
+		  |
+		1st Index + 9 Index 
+		6,7,8,9
+		[6-9]{1}[0-9]{9}
+		
+		youtube Link : https://youtu.be/cIVQdde0dR0
+		
+		Session 18:-
+		Use case of NLP:-
+		==================
+		1. while Writing Email, we the highlights of typo errors : NLP 
+		2. Autocompletion in Correction is a Example of NLp
+		3. Google Translator is also called Example of NLP
+		4. Internationalisation : I18n 
+		5. text based search result is also of the use case of, NLP.	
+		in order to achieve this we are to use Hugging face.
+		
+		Basic of NLP:-
+		===============
+		NLP : stands of Natural Language Process.
+		we NLU : Stands for Natural Langauge Understanding.
+		
+		1. Tokenization in NLP:- 
+		Text Recognistion:-
+		message/text/story/article/script/dialogue.... in text format.
+		
+		Basic Terminology of the Tokenization?
+		1. Paragraph : collection of sentences.
+		in NLP Paragraph are called corpus.
+		
+		2. Sentences in NLP : documents.
+		3. Sentence : collection of Sentences with proper punctuation. / document.
+		4. words : all Indivdual part of the sentence are called as words.
+		 These words can be repeated.
+		5. unique words : 
+			convert the element -------------> set ------------> unique.
+			unique words in NLp are Vocublary.
+			
+			
+			Steps :-
+			corpus 
+			Documents 
+			document 
+			words
+			unique (Vocublary)
+		
+		
+		what we do in Tokenization?
+		we convert the sentences/Paragraphs or corpus into tokens or Lexicals.
+		
+		Corpus ---> Tokenization ------> documents ------> Tokenization -----> words ----->
+		unique words(vacubalary) ------> ascii -------> binary
+		
+		Eg:-
+		P = Mr.Shahrukh Khan Likes Vadapav of the Mumbai. Mr. Salman Khan Like Chaat of Lucknow.
+		Curpus = Mr. Shahrukh Khan Likes Vadapav of the Mumbai. Mr Salman Khan Like Chaat of Lucknow.
+		
+		S1/D1 : Mr.Shahrukh Khan Likes Vadapav of the Mumbai.
+		S2/D2 : Mr. Salman Khan Likes Chaat of Lucknow.
+		
+		words 
+		w1 : Mr.,Shahrukh,Khan,Likes,Vadapav,of,the,Mumbai
+		w2 : Mr.,Salman,Khan,Likes,Chaat,of,Lucknow.
+		
+		Vocublary (unique words in corpus) : 
+		Mr,Shahrukh,Khan,Likes,Vadapav,Chaat,of,the,Mumbai,Lucknow.
+		
+		
+		why Tokenization is requirement
+		1. these are necessary steps 
+		2. end of day each word or character or punctuation 
+		has to be converted into vector Matrix.
+		
+		determine Properties of corpus:-
+		=================================
+		1. len or size.
+		2. type 
+		3. Iteratable.
+		4. Instance
+		
+		Example to find the properties of corpus:-
+		cp =  I like to drink sting. My Frnd Likes to drink fanta.
+		type of corpus : <class 'str'>
+		len of corpus : 2
+		
+		s1 = I like to drink sting.
+		s2 = My Frnd Like(s) to drink fanta.
+		
+		words = w1 => 5
+		words = w2 = 6
+		
+		vc(unique words) = set(w1+w2) 
+		size  : 9 ---> lemmatisation/steaming :single/plural -> like/likes 
+			  : 8 after lemmatisation/steaming
+		type  : str
+		is it iterable : yes 
+		is instance of str  : yes.
+		
+		write a program to perform Tokenisation:-
+		==============================================
+		1. Python Native coding. (string,regex)
+		2. using NLP Package	
+				1. spacy  (Natural Langauge Process tool kit)
+				2. nltk (Natural Langauge Process tool kit)
+				
+		list comprehension is shortcut or quick method to create new list 
+		by writing the syntax as a expression.
+		consider you want to create a new list using some existing iterable.
+		
+		[expression for item in iterable if condition]
+		 Similarly we can new dictionary using dictionary comprehension
+		 
+		 
+		 if condition
+		 for item in iterable
+		
+		isistance() : it check if a if given element is a instance or not.
+		
+		
+		20-06-2025:-
+		==============
+		in order to perform Tokenisation we need to download.
+		punkt model.
+		
+		if you want to install any package using jupyter notebook 
+		!pip install <packagename>
+		
+		Note : for installing the spacy package the version of numpy must match with version of the spacy.
+		make sure to run pip install --upgrade
+		
+		One of the Challenge with the Spacy package it requires the numpy compatible
+		package.
+		so we try to setup the specific version using venv.
+		
+		Make sure before install spacy numpy install and pip must be upgrade
+		python -m pip install --upgrade pip
+		
+		cmd:>
+		create folder 
+		mkdir foldername
+		cd foldername 	
+		python -m venv myenv
+		wait for 5 to 6 min it will create venv
+		\myenv\script\activate 
+		(myenv) cmd:/>
+
+		python -m pip install --upgrade pip
+		pip install -r requirements.txt 
+		
+		Our spacy package support multiple langauge models support,
+		but since we using ANSI Standard will english a langauge model.
+		
+		English Model name : 		
+		How to download :-
+		
+		What is difference NLTK and Spacy:-
+		1. Spacy is More Advance then NLTK
+		2. Spacy supports multiple langauge, NLTK by default works for English/
+		3  Spacy is Object Oriented but, NLTK is procedural.
+		4. It suppose Internationalisation (I18n) with NLTK with to configure. we have load 
+		   method in NLTK.
+		   
+		Agenda :- Also use Process and Tokenisation for Hindi Langauge.
+		
+		NLTP has some very popular Algorithms, which will be used in NLP.
+		you can use it classification, summarisation, translation,chatbot.
+		
+		1. Tokenisation Algorithm :-
+		Break the text into smaller units like sentences, words, and vocabs or grammer
+		1. punkt sentence Tokeniser  
+		from nltk.tokenize import sent_tokenize
+		This uses pre-trained model unsupervised learning.
+		
+		2. wordPiece/Byte Pair Encoding Technique:- (BPE) used in BERT and GPT Models.
+		3. TweetTokenizer : twitter has many tweets you have message, Tags,
+							 @ and #hastag or emoticon.
+							 
+							 This is valid for whatsApp Message, Facebook Messafe 
+							 as well.
+							 
+							 
+		2. Text Clarification Algorithm:-
+		3. text Processing Algorithm
+		4. Sequence Models **
+		5. Pos Tagging Algorithms **
+		6. Named Entity Recognsation**
+		7. Text Vectorization Algorithm **
+		8. Semantic Analsysis
+		9. Similarity and clustering Alogorithm.
+		
+		
+	24-06-2025:-
+	============
+	How to perform tokenisation in Hindi Langauge.
+	By nltk does not support hindi, it do English.
+	because punkt package does not have hindi model.
+	
+	library :- 
+	indic-nlp-library is used to Perform Tokenisation for Hindi Langauge.
+	
+	Next Step :- 
+	Stemming:-
+	===============
+	Steamming is a Process of reducing a word to its, root word.
+	called as Stem.
+	
+	1. stemming process may be accurate and may not be accurate.
+	2. in nlp stemming is a necessary step that need to be perform.
+	but there no gaurantee that it will word for each and every word
+	
+	eating  --> eat
+	playing --> play
+	congratulations --> congrats ---> congratul (wrong)
+	
+	Example:-
+	1. Playing, Played, plays ----> play
+	2. runner, running,runs,runnable --> run 
+	
+	why stemming is important:-
+	consider you are building search Engine, 
+	and if some one search "connection"
+	
+	All the Possible Outcomes.
+	connects,
+	connected.
+	network connected.
+	
+	Advantage of Stemming 
+	1. improved information.
+	2. Reducing the classification of text data.
+	3. minimum of tokens required of text processing.
+	4. for Semantic Analsysis of the words and better understanding.
+			
+25-06-2024:-
+============
+		How stemming works by step by step process:-
+		1. we take input a word.
+		2. Apply Rules (Transformation Rules/Stemming Rule)
+		3. Return the root/stem.
+		
+		Lets design the our own custom stemming functions.
+		steps 
+		1. we will use regex module.
+		2. we define custom function.
+		3. we make suffixes list  = ['ing','ly','ed','ies','live','es','s','ment']
+		4. loop through every word matches suffix ,regex  sub function ---> suffix 
+		   reduce in stem word 
+		5. finally return.
+		
+		
+		Popular Techniques of the Stemming :-
+		1. Porter Stemmer: 
+			1. most commonly used
+			2. Rules based or Suffixes Based.
+			
+			Advantage:-
+			Fast and Light weight
+			Disadvantage :-
+			Sometimes it perform over-stemming 
+			Eg:- Universe --> univers
+			it does not multiple langauge, stemming
+			
+			function Name : PorterStemmer()
+			
+		2. Lancaster Stemmer  
+		    it is used but it used when we want perform more agressive stemming.
+			Rules more strict and more.
+			
+			Advantage:-
+			short stemming, powerful
+			
+			Disadvantage :-
+			since it is aggresive it sometimes word loses it original meaning.
+			function Name : LancasterStemmer()
+		
+		
+		3. Snowball Stemmer : 
+		   it is improved version of Porter Stemmer, 
+		   it is Balanced perform of stemming also
+		   support concept of multi-langauge and I18n.
+		   
+		  Disadvantage :-
+			it is slower than Porter Stemmer.
+			it requires higher computation.
+			function Name : SnowballStemmer()
+		
+		4. Regex-based Stemmer 
+			 it is basically Regex based.
+			 if you want to build your custom stemmer
+			 
+			 Advantage:-
+			 we have full controlled.
+			 we can define our own rule.
+			 
+			 Disadvantage:-
+			 since we define our own rules, it need manual intervention.
+			 you need large amout data set of suffix rules.
+			 
+		Some Popular Interview Question:-
+		1. which Stemming Technique will you in Live Server Environment?
+		   Porter Stemmer
+		
+	    mera-agent.com it can by entire  used by entire world.
+		2. which Stemming Technique will you in Live Server Environment?
+		 Multiple Langauge Support ----> I18n ---------> Snowball Stemmer.
+		 
+		3. Stemming Technique Accurancy : 60~80%
+		   in order to improve this LOSS 
+		   lemmatisation Technique.
+		   
+		4. Can we make customer Stemmer ?
+		   Regex Stemmer.
+		   
+		Agenda :-
+		Lemmatization, Name Entity Recognistion, Stop words Algorithm,
+		POS Tagging (Part of Speech)
+		
+		
+26-06-2025:-
+=============
+Discuss about Lemmatization Technique:-
+Lemmatization Technique is the Advance Technique or Effecient Technique of the
+Stemming.		
+		
+		
+Lets compare the Lemmatization with the Stemming with an Example:-
+1. Congratulations
+		Stemming -> Suffix -> (ing) -> Root word(stem)->  Congratul
+		base or root word -> Congrat -> in NLP this root word is called as lemma.
+		
+   Congrat -> root word will be called lemma and this is what we try to achieve
+   in Lemmatization.
+   
+Definition of the Lemmatization:-
+=================================
+1. It is the Process of the Reducing the word to its base or root word which 
+is called lemma.
+it is some what related to, Stemming.
+
+Lemmatization model contains inbuit dictionary.(Unique Word List)
+Dictionary will be in the correct form.
+Lemmatization return the dictionary word (which are in form of the, base word 
+or root word.)
+
+Since the Root word or Lemma is more related to dictionary word 
+1. we can define the Context and Grammer of the Word.
+2. we can easily Indentity the Part of Speech.
+3. it is more accurate then stemming.
+
+Lemmatization model also knows, Grammers, Tenses (Verbs 1st,2nd Form,3rd Form.) 
+
+Comparsion B/w Lemmatization Vs Stemming :-
+
+============================================================
+|  Properties  |  Lemmatization    |  Stemming              |
+============================================================  
+1. Output  	Valid Word(Dictionary) Invalid Words/Truncated.
+2. Example   Running -> Run        Running -> run
+			 Better -> good.       better -> bett or bet
+3. POS       Support               This does not support POS.
+4. Accuracy  High                  Low
+5. Speed     Slower                Faster.
+
+Accuracy = 1/Performance or speed
+where POS refers to Parts of the Speech.
+
+
+Real Life Example of the Lemmatization:-
+1.  Word 
+	Running   run 
+	ate 	  eat 
+	better    good 
+	studies   study 
+	geese     goose 
+	
+	
+Step by step Process of the Lemmatization:-
+==========================================
+1. input the word
+Eg : flying 
+2. POS Tagging (noun,verb,adjective,adverb)
+3. We will be using Dictionary word List 
+   what ever the POS we have Indentify, find with the Dictionary word.
+4. Return the Lemma(root word)
+
+Popular Algorithm :-
+WordNet Lemmatizer
+
+27-06-2025:-
+===========
+POS Tagging :-
+Pos Tagging : is a process of assigning a word in a sentence or corpus with a part of speech.
+Part of Speech : Verb,nouns, adjective,adverb,pre-position,gerund,Deteminers
+Example : "The Quick Brown fox jumps over the lazy dog"
+Post Tagging:-
+The - DT 
+quick - Adjective 
+brown - Adjective 
+fox - noun 
+jumps - verb
+over - preposition (IN)
+the - Determiner
+lazy - Adjective 
+Do - Noun
+
+POS :-
+DT - Determiner 
+JJ - adjective
+NN : Noun 
+VBZ : Verb
+IN : Preposition
+
+why POS Tagging is Important:-
+1. because of Parsing and Syntax Trees:- used in Grammer Analsysis.
+2. NER (Name Entity Recognistion) : 
+	Proper Noun VS Common Noun
+3. Machine Level Translation : if you want to translate in a better 
+  in terms of grammer.
+ 4. Q& A Session : Imagines you written a Big sentence, to Chatbots
+					Corpus -> Words -> POS Tagging -> What Context 
+					are you referring to?
+					
+					
+POS Tagging (Pen Treebank Tagging Algorithm)
+NN : Noun with singular Property   Eg: dog,cat 
+NNS : Noun with Plural Property    dogs,cats 
+
+VB Verb with Base Form  run 
+VBD Verb with Past Form ran 
+
+JJ : adjective, red,blue,green,brown,quick
+RB : Adverb 	 quickly 
+
+IN : Preposition on,over,abover,under...
+DT : Determiners ,a,an,the 
+PRP : Personal Pronoun  I,You
+RP : Pronoun
+
+
+Step By Step Approach :-
+==========================
+1. Rule Based Approach 
+	1. it uses the dictionay and Hands written rules or custom rules 
+	written by user or programmer.
+	Eg:- suppose we have word ending with 'ly' -> Tag with RB where Rb nothing Adverb.
+	
+	Limitation :- Not Adaptive, duplicacy (Redundancy and ambiguity)
+	ambiguity leads to confusion.
+	
+2. Statistical Models Approach (Most Popular Commonly used)***
+	1. Hidden Markov Model (HMM)
+	2. Maximum Entropy Markov Model (MEMM)
+	3. Conditional Randoms Fields/forest (CRF)
+	
+3. Neural Network 
+	Bi-lstm, BERT(transformers)
+
+How Model Learns in statistical Model Approach?
+1.  Model learsns from Annotted Corpus and try to remove 
+	ambiguity and tries find the Context(meaning or sense)
+	
+ import nltk
+ nltk.download('punkt')
+ nltk.download('punkt_tab')
+ nltk.download('averaged_perceptron_tagger_eng')
+ 
+ 28-06-2025:-
+ Vectorisation:- (Text 2 Vector or Text to Vectors)
+   Convert the Text data into some numerical data is called vectorization.
+ 1. Data/Text Processing (Regular Experssion,Lowerwords,Tokenization,stemming and Lemmatization)
+ 2. Post Tagging, Stop words,Name Entity Recognistion.
+ 
+ Vectorisation Techniques:-
+ 1. One Hot Encoding Technique : it has lot of disadvantage due to which we go for different techniques.
+ 2. Bag of Words (very effecient Technique)
+ 3. TF-IDF 
+ 4. Word2Vec
+ 5. Average word2Vector.
+ 
+ 
+ Vectorisation Mathematical Terms:-
+ 1. Text (Scalar Data)
+ 2. Vectors 
+ 
+  In Simple Terms :-
+  Instead of Processing data one by one like a for loop.
+  we process the data in chunks (vector/matrices)
+  
+  1. scalar approach : Normal Loop 
+  2. Vector approach : numpy.
+  
+   Vectorisation in Machine Learning:-
+   ====================================
+   Consider a Equation y=mx+c Linear Equation.
+   
+   Linear Regression :-
+   y = XW+b 
+       | |
+	   V1V2 
+		V1 dot Prodoct V2 
+   where x = is Matrix of Input feature. (shape/dimension/order=mxn or ixj)
+   w = wieght of vector (shape or dimension : nx1)
+   b = biased term/v-factor/baised factor
+   
+   in numpy we can represent the same formula
+   using 
+   y = np.dot(X,W)+b 
+   
+   Performance of the Vectorisation Technique:-
+   1. Performamce or Vectors > Performace of Scalars
+  
+   Vectorisation Use case:-
+   ============================
+   1. Machine Learning  : Batch Gradient, Matrix Multiplication.
+   2. Deep Learning : Forward/Backward Propagation Technique,GPU Computation  
+   3. NLP : Text Embedding(Word2Vec, Average Word2vector,BERT)
+   4. Image Processing : Convolutional theoram or operations or Techniques.
+   5. Data Science : Pandas or Seaborn Vectorise row and column Operations.
+   6. Scientic or Quauntam computation : Simulations,Trading, Pattern Opmitization.
+                                         
+   Introduction to Streamlite  :-
+   You can build Web Interface without using html and css and Javascript in Python.
+   
+  
+   30-06-2025:-
+   ============
+   what is My Agenda :-
+   Today we will cover, Few Algorithms 
+   Like,
+   Last Session Vectorisation (1. Scalar Vectorisation : loops and Vector Vectorisation : Numpy)
+   One Hot Encoding After Algorithms:-
+   Algorithm are based out of Vectorisation:-
+   
+   1. Finding Stop words : compeleted. (Tokenisation : Last Step of Tokenisation)
+   2. Bag of Words.
+   3. TF-IDF (Document Term Frequency - and - Inverse Document Frequency)
+   4. Word2Vec (basic)
+   5. Pre-trained Word2Vec ~ (pre-trained model -> 1.5Gb+ Model)
+   6. Average Word2Vec
+   7. Cosine Similarity.
+   
+   1. Finding Stop words :-
+		  Try to Remove Most common words which donot add any meaning.
+		  Eg:- Rahul is Eating a cochalate
+		  which package used : nltk package.
+	 
+   1. Why do we perform Stop words Tokenisation:-
+	  1. So that Frequency of the Repeatition words decreases.
+	  2. if your remove un-necessary words, memory consumption will be less.
+	  hence will reduced the space complexity and time complexity.
+	  
+	  This is not a necessary but can improve the Optimisation.
+	  it is good practise to Implement.
+	  
+	  
+	  Text -> Vector Conversion (High Order Matrix of 0 or 1 or 0 or n)
+   
+	Bag of Words:-
+	=============
+	1. it is most popular and most widely used Technique of text or vector conversion
+	2. when we say vectors we mean (numerical values) 
+	3. These Vectors will be in form of Matrix.
+	4. These Matrix will be the Fequency or word count.
+	
+	Bag of words used ML Algorithm.
+	we will use package : scikit-learn
+	pip install scikit-learn
+
+	Updated Vedio Playlist:-
+		Please find the Updated Vedios :-
+	1. Gen AI Meeting  Lecture  Stop words and Bag of Words Algorithm finding frequency :
+		https://youtu.be/ejBwU6L97ng :
+	2. 	28 Gen AI Meeting  Vectorisation Technique Scalar and Vector dot and vector product and working 
+		https://youtu.be/WMADkqPos6A
+	3.  27 Gen AI Meeting  Working with Parts of speech : https://youtu.be/2YzCsIqTF7E
+	4.   26 Gen AI Meeting  Lemmatization Technique and Comparison Between Stemming Vs Lemmitization
+		https://youtu.be/fTjSaFvJsW4
+	5. 25 Gen AI Meeting  stemming algorithms Porter Stemmer, Lancaster Stemmer, Snowball Stemmer and uses.
+	   https://youtu.be/HPe5ePxLJLs
+	   
+	01-07-2025:-
+	============
+    TF-IDF Vectorisation;-
+	1. TF - Term Frequency
+	2. IDF - Inverse Document Frequency 
+	it is a statistical tool or measure used to evaluate how important a word is in a document or collection or paragraph or corpus.
+	Have you learned this concept called as, Significant figures.
+	
+    why do we need it:-
+	1. suppose you are working in a some text data like 
+	email, article, blogs...
+	There may be chance that all words are equally important.
+	
+	common words like is, the,was there are kind of stop word.
+	these have very wiehtage or importance.
+	
+	hence  TF-IDF help in finding the important words in the given 
+	document that are less important in global context.
+	but current document more importance.
+	
+	
+	Formmula of If-IDF : word(term)
+	where t stands for term
+	
+	Tf(t) =   No of times term(t) appears in the document.
+	       ---------------------------------------------
+		      Total No of terms in the document.
+			
+	Eg:-
+	if the word is 'happy' appear 3 times in a 100 word document.
+	Tf(t'happy') = 3/100  ~ 0.03
+	
+	TF(t) =   Mode
+			--------
+			  Total
+	
+	Inverse Document Frequency (IDF)
+	it is a Inverse or compliment of ~TF 
+    Tf - How Frequent the word has been 
+    IDF - How rare the word has been seen.
+
+     IDF(t) = log(Total No of docs/1+no of document containing n terms)
+	 Eg:-
+	 I you have 1000 documents and "happy" appear in 10 times.
+	 ATF:-  log(1000/1+10) => ? 
+	 
+	 TF-IDF = Tf(t')X IDF(t')
+	 Example :-
+	  we have a word "happy" that occures very often in document
+	  but it rarely occurs in other documents.
+	  
+	  use case:-
+	  1. Feature extraction from ML Model.
+	  2. Documents difference or similarity (Anamolies)
+	  3. search Engine
+	  4. Keyword Extraction.
+	  etc etc.
+	  
+	  package : sklearn
+	  
+	  Word2Vect (Training and Custom Curpos Vector)
+	  In this concept we try to convert the Text to vectors.
+	  Package : gensim
+	  we will make a Google News, 
+	  by Pre-trained Word2Vec ~ (pre-trained model -> 1.5Gb+ Model)
+	  
+	  
+	   Average Word2Vec :-
+	   Same concept as word2Vec.
+	   it is light, because it is implement on the top of numpy.
+	   Use to find the mean of word Vectors to represent the sentence.
+	   Interview:- How to implement average_word_2_vec using no external library of nlp.
+	   
+	  
+	  Youtube vedio link:- https://youtu.be/Shtoqi50Rwk
+	  
+	  
+	02-June-2025:-
+	=============
+	
+	 we have to start with the pre-trained model.
+	 step 1. import donwloader from gensim model
+	 step 2. we will use word2vec-google-news-300  Model.
+	 it is a heavy package with almost size ~1.62GB
+	 step 3. average word2Vec function will use this import word google news model
+	 for vectorization technique.
+	 
+	 in Aptitude:-
+	 Reasoning Question:-
+	 1. Gender Classificaiton and simlarity:-
+		1. Aaam + Man => Aman
+		2. king - man + Woman => queen
+	 
+	 2. Location classificaiton and similarity
+	 delhi-India + usa = capital of usa()
+	 
+	 in Vector Relationship :-
+	 king - man + Woman 
+	 
+	 Positive : king+woman - man = queen?
+	 negative : man
+	 
+	 05-July-2025:-
+	 ===================================================
+	 Lets us Perform Analysis for each set of module:-
+	 when we say about analysis we try to represent the behaviour visuallu
+	 by the means of, graph.
+	 Also we can find the trends and closed similarity b/w vectors.
+	 
+	 Similar words:- 
+	 ==============
+	 Solution to display anything graphically:-
+	 1. find the cosine similarity, of the x and y variable.
+	 2. then plot the graph using matplotlib to display the behaviour.
+	 
+	 
+	 07/07/2025:-
+	 Run this use to install google cloud authentication google cloud cli.
+	 =======================================================================
+	 (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+     & $env:Temp\GoogleCloudSDKInstaller.exe
+    
+	08/07/2025:-
+	========================================================================
+	 we are Vertex Ai of the Gemini Model - No Problem 
+	 you must a doubt sir we can we build and train our own model.
+	 
+	 How can I build My custom Model (LLM) for My Problem :-
+	 Also I can save it use for later. I dont want to Pay single Paisa at all.
+	 
+	 Generally we have 3 Types of Required 
+	 1. Using Open Source Pre-trained Model : Logical GPT (google-news-300)
+	 2. when any problem is very complex it requires huge computation.
+		 -Crore of data Analysis.
+		  can I use my local environment.
+		  in that you need a cloud Infrastructure where you can build, model train,
+		  deploy model.
+		  in that case instead of doing everything from sctrach, why not utilise the 
+		  ready made models.
+		  
+		  -Amazon : AWS SageMaker, Aws Bedrock 
+		  -GCP : Vertex AI (with Gemini flash, Gemini Pro Support)
+		  
+	 3. For small Data set, and Low computation we can build our own models.
+	    Then Later on we can scale from lower data set to larger set.
+		
+	 
+	 How to Build Our Own Model using Sentiment Analysis:-
+	 =========================================================
+	 Pre-requistic :- You must Know Fundamentals Sckit-Learn.
+	 we will be using pickel package, for serialization and desearization of the JSON Data.
+	 
+	 JSON Data Nothing But, Labelled and Unlabelled in forms vectors written 
+	 in JSON Format with extension .pkl
+	 in case of Machine Learning.
+	 
+	 serialization : Labelled Data with Vectors to JSON Format 
+	 de-serialization : JSON Format  to Labelled Data with Vectors. 
+	 
+	 1. In Native Python 
+	 2. In ML 
+	 Note : Pickle Package is already of Python No Need to install.
+	 
+	 How Iris Model Prediction Works:-
+	 1. model Predicts class of the Lebals flower 
+	    Sepal and petal (length,width)
+		
+	1. sepal length
+	2. sepal width
+	3. petal length 
+	4. petal width
+	
+	class Index :- ['setosa','versicolor','virginica']
+	
+	0-class = 'setosa'
+	1-class = 'versicolor'
+	2-class = 'virginica'
+	
+	
+	Lets Build a Model based on Sentiment Analsysis:-
+	'===============================================
+	1. Baye's Theoram in Probability :-
+	
+	P(A|B) = P(B|A).P(A)
+	         ------------
+			    P(B)
+			 
+			 -where P(A|B) probability of a Event A occuring given that B Event is True 
+			 -where P(A|B) probability of a Event B occuring given that A Event is True 
+			 -P(A) is intial probability about A before Event B can Occur
+			 -P(B) is intial probability about B before Event A can Occur
+			 	 
+	Baye's Theoram  : is helpful in making prediction on the Basis Event (Evidence)
+	1. Machine Learning : Naive Bayes 
+	2. Medical Diagnosis
+	3. Spam Filters 
+	4. Decision Making or Risk Analysis.
+	
+	
+	consider this situtaion :-
+	===============================
+	1. your phone lost is home
+	2. I intial prediction -> "it is most likely to be found in bedroom".
+	3. you called the Phone -> then you hear it ringing -> Range 
+	   sound fainted (slow) -> phone is near by -> but may placed under some pillow
+	 
+	  On the basis of this evidence, you will modify your guess.
+	  May be it is under some pillow or blanket within room or outside the room.
+		
+	Bayer Theoram is the mathmatical formula which helps to make better 
+	prediction/guess.
+		
+		
+	Maths Problem :-
+    Bag A => 80% choclate, 20% candy 
+    Bag B => 30% choclate, 70% candy
+
+    we pick one Bag at Randomly and you take out one item, 
+    Assume ___Choclate_______	
+	
+	
+	 On the basis of this event you make a guess, 
+	 what's the chance I picked from BAG A ?
+	 
+	 Apply Bayer Theoram Logic -?
+	 if you got a choclate, its more likely that it may have come out from bag 
+	 which has more choclate.
+	 
+	 key Idea Behind Bayer Theoram is that 
+	 it starts with what you believe, then update it when you get new evidence 
+	 This is smart of Prediction.
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	 
+	 
+	 
+	 
+	 
+	 
+                  	 
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+					
+						
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+   
+   
+   
+   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+													
+		
+		
+		
+		
+		
+		
+		
+
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		
+		
+		
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	 
+	 
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+	 
+
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+	   
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	   
+	  
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+
+	 
+	 
+	 
+	 
+	 
+		
+		
+		
+
+
+
+	 
+								
+		 
+		 
+		 
+		 
+	 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+		
+
+
+
+
+
+		
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
